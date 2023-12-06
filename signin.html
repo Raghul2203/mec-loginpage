@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>signup page</title>
+<style>
+
+    fieldset{
+        margin-top: 10px;
+        margin-left: 80px;
+        width: 1000px;
+    }
+    input{
+        margin-left:50px;
+        margin-top: 25px; 
+        margin-inline-end: 25px;
+        
+    
+
+    }
+    #mec{
+        margin-left: 50px;
+    }
+    img{
+      display: flex;
+      position:absolute;
+      top:10px;
+      left:4px;
+      height:50px;
+      width:50px;
+      
+    }
+
+    #log{
+        margin-left: 380px;
+
+    }
+    
+    #L1{
+    
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(38, 0, 209);
+    }
+    label{
+        width: 45px;
+        display: inline-block;
+        
+    }
+    #im {
+        display: inline;
+    }
+    #sub{
+        margin-left: 400px;
+
+    }
+    
+</style>
+<body>
+    <a href="https://ibb.co/NVWbJgz"><img src="https://i.ibb.co/YRfw14G/MEC-Logo.png" alt="MEC-Logo" border="0"></a>
+     <h2 id="mec"> MUTHAYAMMAL ENGINEERING COLLEGE</h2>
+     
+    <section >
+    <fieldset>
+        
+        
+                <legend id="L1"> <b>SIGNUP</b></legend>
+                
+        
+       <label>Name:</label><input type="name" placeholder="Name" required autofocus>
+       <label for="im">Select image:</label>
+  <input type="file" id="im" name="im" accept="image/*">
+  <input type="submit" >
+       <br> 
+         <label>Class:  </label><input id="c1"type="text" placeholder="CY-B" required autofocus>
+         <label>Year:</label>
+            
+             <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+             </select><br>
+        <label>Reg.no:</label><input type="text" placeholder="20CY618" required autofocus> 
+    <br>    
+        <label>D.O.B:</label><input type="date"  required><br>
+        <label>Gmail:</label><input  id="gmail" type="gmail" placeholder="example12@gmail.com">
+    <br>
+        <label>Mobile number:</label><input type="tel" pattern=“[0–9]10” maxlength="10" placeholder="7834526408"required > 
+    <br>    
+        <label>Father-name</label><input type="text" placeholder="Father name" >
+    <br>
+        <label>user name:</label> <input type="username" placeholder="Reg.no">
+    <br>
+        <label>Password</label> <input type="password" placeholder="Password" id="password" required>
+        <input type="password" placeholder="Conform Password" id="conform_password" required>
+
+        <button onclick="conform()" type="submit" >Confirm</button>
+    <br>
+        <input  id="sub"type="submit">
+    <br>
+    <br>
+    <a id="log" href="first page-login in .html"><button>Return to login</button> </a>  
+</fielset>
+ </section>
+<body>
+    </html>
